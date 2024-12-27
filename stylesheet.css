@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
@@ -8,6 +10,7 @@ body {
 	transition:background-color linear 5s;
 	overflow-x:hidden;
 }
+
 .container {
 	display: none;
 }
@@ -1311,3 +1314,8 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+.myText p{
+	/* text-transform: capitalize; */
+	font-weight: bold;
+}
